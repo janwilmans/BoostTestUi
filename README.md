@@ -1,7 +1,7 @@
 BoostTestUi (needs a better name because it supports multiple frameworks now)
 -----------
 
-[Download the latest release here](https://github.com/janwilmans/BoostTestUi/releases/tag/v1.1.0)
+[Download the latest release here](https://github.com/janwilmans/BoostTestUi/releases)
 
 BoostTestUi provides a Windows gui runner for these test frameworks:
 
@@ -18,8 +18,8 @@ Screenshot
 How to build
 ------------
 
-This is a Visual Studio 2010 project with the following dependencies:
-- boost 1.43 or later
+This is a Visual Studio 2017 project with the following dependencies:
+- boost 1.68 or later
 - WTL 9.0 or later
 - gtest 1.6.0 or later (only required for the GTestSample sample unit test)
 - Catch 1.5.8 or later
@@ -73,3 +73,4 @@ Run from the toolbar or the test tree context menu to run the tests.
 
 Gert-Jan de Vos
 mailto:boosttestui@on.nl
+
