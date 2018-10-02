@@ -19,7 +19,7 @@ How to build
 ------------
 
 This is a Visual Studio 2017 project with the following dependencies:
-- boost 1.68 or later
+- boost 1.67 or later
 - WTL 9.0 or later
 - gtest 1.6.0 or later (only required for the GTestSample sample unit test)
 - Catch 1.5.8 or later
