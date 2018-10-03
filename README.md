@@ -26,7 +26,7 @@ This is a Visual Studio 2017 project with the following dependencies:
 only required for the GTestSample sample unit tests:
 - gtest 1.6.0 or later
 - Catch 1.10 (final catch v1 release)
-- Nunit 2.7.0
+- Nunit 2.6.7 or later
  
 These dependencies are automatically retreived using Nuget during solution build.
 
