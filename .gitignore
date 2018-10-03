@@ -8,3 +8,4 @@ ipch/
 *.suo
 *.aps
 *.VC.db
+packages
