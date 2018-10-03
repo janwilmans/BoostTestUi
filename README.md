@@ -21,11 +21,14 @@ How to build
 This is a Visual Studio 2017 project with the following dependencies:
 - boost 1.67 or later
 - WTL 9.0 or later
-- gtest 1.6.0 or later (only required for the GTestSample sample unit test)
-- Catch 1.5.8 or later
+- Wix 3.11.x (for the installer)
 
-These libraries must be installed in Libraries. All projects should now build.
-
+only required for the GTestSample sample unit tests:
+- gtest 1.6.0 or later
+- Catch 1.10 (final catch v1 release)
+- Nunit 2.7.0
+ 
+These dependencies are automatically retreived using Nuget during solution build.
 
 Boost.test support
 ------------------
