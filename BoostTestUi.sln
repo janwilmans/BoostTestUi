@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27924.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostTestUi", "BoostTestUi\BoostTestUi.vcxproj", "{2B211D41-9EA2-42FB-9A85-B0B1C1722EF1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostTestSample", "BoostTestSample\BoostTestSample.vcxproj", "{849417CD-159A-4D8C-AB17-2CFB259F0BBE}"
@@ -69,7 +71,6 @@ Global
 		{FDC692D8-309D-4490-8E9B-445D645233BF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{FDC692D8-309D-4490-8E9B-445D645233BF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{FDC692D8-309D-4490-8E9B-445D645233BF}.Debug|Win32.ActiveCfg = Debug|Win32
-		{FDC692D8-309D-4490-8E9B-445D645233BF}.Debug|Win32.Build.0 = Debug|Win32
 		{FDC692D8-309D-4490-8E9B-445D645233BF}.Debug|x64.ActiveCfg = Debug|Win32
 		{FDC692D8-309D-4490-8E9B-445D645233BF}.Debug|x86.ActiveCfg = Debug|Win32
 		{FDC692D8-309D-4490-8E9B-445D645233BF}.Release|Any CPU.ActiveCfg = Release|Win32
@@ -159,7 +160,6 @@ Global
 		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
 		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Debug|Mixed Platforms.Build.0 = Debug|Win32
 		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Debug|Win32.Build.0 = Debug|Win32
 		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Debug|x64.ActiveCfg = Debug|Win32
 		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Debug|x86.ActiveCfg = Debug|Win32
 		{903A6E6B-A8F3-4AE9-BDDB-F052B594853E}.Release|Any CPU.ActiveCfg = Release|Win32
@@ -202,5 +202,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C75BDF0-6A43-4673-9CE7-4EED903F7E58}
 	EndGlobalSection
 EndGlobal

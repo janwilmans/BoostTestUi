@@ -236,6 +236,7 @@
     <None Include="CatchTestSample.rtf">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="BoostTestUi.rc">

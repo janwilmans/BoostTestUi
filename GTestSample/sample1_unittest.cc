@@ -49,14 +49,8 @@
 #include <windows.h>
 #include <limits.h>
 #include <gtest/gtest-gui.h>
-//#include <gtest/gtest.h>
+#include <gtest/gtest.h>
 #include "sample1.h"
-
-#ifdef _DEBUG
-#	pragma comment(lib, "gtestd.lib")
-#else
-#	pragma comment(lib, "gtest.lib")
-#endif
 
 // Step 2. Use the TEST macro to define your tests.
 //
